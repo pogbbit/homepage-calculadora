@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url('BERSERK.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: auto;
+            /* Para centralizar a tabela */
+            background-color: antiquewhite;
+        }
+
+        td {
+            padding: 20px;
+            border: 1px solid black;
+        }
+
+        form {
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        input[type="submit"] {
+            background-color: #ff0000;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #770000;
+        }
+
+        @media (max-width: 768px) {
+            table {
+                max-width: 100%;
+            }
+
+            td {
+                padding: 2%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <table align=center>
+        <tr>
+            <td>
+                <form action="perimetroBack.php" method="get">
+                    PRIMEIRO PERÍMETRO
+                    <p>Lado 01: <input type="text" name="a" /></p>
+                    <p>Lado 02: <input type="text" name="b" /></p>
+                    <p>Lado 03: <input type="text" name="c" /></p>
+                    <p>Lado 04: <input type="text" name="d" /></p>
+
+            </td>
+            <td>
+                SEGUNDO PERÍMETRO
+                <p>Lado 01: <input type="text" name="e" /></p>
+                <p>Lado 02: <input type="text" name="f" /></p>
+                <p>Lado 03: <input type="text" name="g" /></p>
+                <p>Lado 04: <input type="text" name="h" /></p>
+            <td>
+                <p><input type="submit" value="CALCULAR" /></p>
+                </form>
+            </td>
+            </td>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

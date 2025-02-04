@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url('SABOMUITO.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: auto;
+            /* Para centralizar a tabela */
+            background-color: antiquewhite;
+        }
+
+        td {
+            padding: 20px;
+            border: 1px solid black;
+        }
+
+        form {
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        input[type="submit"] {
+            background-color: #403f3e;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #242323;
+        }
+
+        @media (max-width: 768px) {
+            table {
+                width: 100%;
+                /* Remova a propriedade max-width e defina width: 100%. */
+            }
+
+            td {
+                padding: 1%;
+                /* Reduza o padding para 1% para economizar espaço em telas menores. */
+            }
+        }
+    </style>
+    </style>
+</head>
+
+<body>
+
+    <body>
+        <table align=center>
+            <tr>
+                <td>
+                    <form action="bhaskara.php" method="get">
+                        FÓRMULA DE BHASKARA
+                        <p>Valor A: <input type="text" name="a" /></p>
+                        <p>Valor B: <input type="text" name="b" /></p>
+                        <p>Valor C: <input type="text" name="c" /></p>
+                </td>
+                <td>
+                    <p><input type="submit" value="CALCULAR" /></p>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+
+</html>
